@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(165, 122, 42);
+    background-color: rgb(196, 150, 67);
     height: 50px;
     position: fixed;
     
@@ -29,6 +29,8 @@ body{
     display: flex;
     justify-content: space-around;
     width: 30%;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
 }
 .navLink li{
     list-style: none;
@@ -40,6 +42,9 @@ body{
     text-decoration: none;
     font-size: 20px;
 }
+.navLink li a:hover{
+    color: lightblue;
+}
 
 #welcome{
     min-width: 100%;
@@ -47,7 +52,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
     background-image: url(./Sea-coast.jpg);
+}
+#welcome h1:hover{
+    color: red;
 }
 
 #project{
@@ -64,13 +74,16 @@ body{
     margin-top: 50px;
     text-align: center;
     font-size: 80px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
     color: white;
 }
 #project img{
     margin: 0px 50px 30px 30px;
-    
+    border-radius: 5px;
 
+}
+#project img:hover{
+    border: 7px solid rgb(196, 150, 67);
 }
 .title{
     text-align: center;
@@ -80,9 +93,16 @@ body{
     cursor: pointer;
 
 }
-
 .title:hover{
     color: red;
+}
+#contact{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(196, 150, 67);
 }
 
 
